@@ -63,7 +63,7 @@ public class Pizza {
         // your code goes here
 
         if(!isbillgenerator) {
-            bill += "Base Price Of The Pizza: " + price+"\n";
+            bill = "Base Price Of The Pizza: " + price+"\n";
             if(cheeseadded) {
                 bill += "Extra Cheese Added: " + cheeseprice +"\n";
             }

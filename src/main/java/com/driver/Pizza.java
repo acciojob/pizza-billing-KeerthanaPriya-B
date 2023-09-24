@@ -28,7 +28,7 @@ public class Pizza {
         }
         cheeseprice = 80;
         bagprice = 20;
-        bill += "Base Price Of The Pizza: " + this.price+"\n";
+//        bill += "Base Price Of The Pizza: " + this.price+"\n";
     }
 
     public int getPrice(){
@@ -63,6 +63,7 @@ public class Pizza {
         // your code goes here
 
         if(!isbillgenerator) {
+            bill += "Base Price Of The Pizza: " + price+"\n";
             if(cheeseadded) {
                 bill += "Extra Cheese Added: " + cheeseprice +"\n";
             }

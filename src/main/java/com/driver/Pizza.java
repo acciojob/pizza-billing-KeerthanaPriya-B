@@ -75,6 +75,6 @@ public class Pizza {
             bill += "Total Price: " + price;
             isbillgenerator = true;
         }
-        return this.bill;
+        return bill;
     }
 }
